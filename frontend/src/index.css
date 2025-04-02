@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 180 54% 97%;
+    --foreground: 200 20% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 20% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 20% 20%;
+
+    --primary: 184 49% 46%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 92% 54%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 184 30% 90%;
+    --muted-foreground: 200 20% 40%;
+
+    --accent: 12 100% 68%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 184 30% 85%;
+    --input: 184 30% 85%;
+    --ring: 184 50% 50%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-semibold;
+  }
+
+  .hero-section {
+    background: linear-gradient(rgba(26, 95, 122, 0.7), rgba(26, 95, 122, 0.4)), url('/src/assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .travel-card {
+    @apply bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl;
+  }
+
+  .gradient-button {
+    @apply inline-flex items-center justify-center rounded-full text-white font-semibold px-6 py-3 bg-gradient-to-r from-travel-teal to-travel-blue shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1;
+  }
+
+  .gradient-button-secondary {
+    @apply inline-flex items-center justify-center rounded-full text-white font-semibold px-6 py-3 bg-gradient-to-r from-travel-orange to-travel-coral shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1;
+  }
+}
+
+/* Additional Utilities */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-travel-teal to-travel-blue bg-clip-text text-transparent;
+  }
+  
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .animate-on-scroll.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
