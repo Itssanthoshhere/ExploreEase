@@ -1,31 +1,4 @@
 
-// import heroBg from './hero-bg.jpg';
-// import logo from './logo.svg';
-// import featureImg1 from './feature-1.jpg';
-// import featureImg2 from './feature-2.jpg';
-// import featureImg3 from './feature-3.jpg';
-// import stepImg1 from './step-1.svg';
-// import stepImg2 from './step-2.svg';
-// import stepImg3 from './step-3.svg';
-// import testimonial1 from './testimonial-1.jpg';
-// import testimonial2 from './testimonial-2.jpg';
-// import testimonial3 from './testimonial-3.jpg';
-
-// export {
-//   heroBg,
-//   logo,
-//   featureImg1,
-//   featureImg2,
-//   featureImg3,
-//   stepImg1,
-//   stepImg2,
-//   stepImg3,
-//   testimonial1,
-//   testimonial2,
-//   testimonial3
-// };
-
-
 import heroBg from './hero-bg.jpg';
 import logo from './logo.svg';
 

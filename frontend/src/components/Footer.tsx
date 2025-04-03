@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-6">
               <svg
                 className="my-plane-icon lucide lucide-plane h-8 w-8 text-travel-white"
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://www.w3.org/2000/svg"
                 width="20"
                 height="20"
                 viewBox="0 0 24 24"

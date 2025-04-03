@@ -33,7 +33,7 @@ const HeroSection = () => {
       {/* Decorative Elements */}
       <div className="absolute bottom-10 left-0 right-0 flex justify-center pointer-events-none">
         <div className="animate-bounce opacity-70">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="https://www.w3.org/2000/svg">
             <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>

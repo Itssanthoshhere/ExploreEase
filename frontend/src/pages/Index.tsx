@@ -7,7 +7,7 @@ import {
   Features, 
   Testimonials, 
   ContactForm, 
-  PlanTripSection,
+  PlanTripChatbot,
   Footer
 } from '@/components';
 
@@ -40,7 +40,7 @@ const Index = () => {
         <HeroSection />
         <HowItWorks />
         <Features />
-        <PlanTripSection />
+        <PlanTripChatbot />
         <Testimonials />
         <ContactForm />
       </main>
