@@ -6,12 +6,12 @@ import razorpay
 # Configuration - Replace with your actual keys
 # -------------------------------
 # Aviationstack API key and endpoint.
-AVIATIONSTACK_ACCESS_KEY = "90032bc9dad6cb2927d1f7c6f6cb7196"
-AVIATIONSTACK_URL = "http://api.aviationstack.com/v1/flights"
+AVIATIONSTACK_ACCESS_KEY = "your_api_key"
+AVIATIONSTACK_URL = "tshttp://api.aviationstack.com/v1/fligh"
 
 # Razorpay API credentials (sandbox/test keys)
-RAZORPAY_KEY_ID = "rzp_test_TTSlEMIX7uzTBh"        # Get your test key from Razorpay Dashboard.
-RAZORPAY_KEY_SECRET = "5Ag4vinxaW2dxnNonvJo2tpl"  # Get your test secret key.
+RAZORPAY_KEY_ID = "your_key"        # Get your test key from Razorpay Dashboard.
+RAZORPAY_KEY_SECRET = "your_key"  # Get your test secret key.
 
 # Initialize Razorpay client
 razorpay_client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET))

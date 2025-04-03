@@ -1,7 +1,7 @@
 import requests
 
 # 🔹 Replace with your actual OpenRouter API key
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "your_api_key"
 
 def get_travel_plan(destination, days, interests, budget):
     """Generates a structured travel itinerary based on user preferences using OpenRouter API."""

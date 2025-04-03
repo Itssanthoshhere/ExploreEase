@@ -31,7 +31,7 @@ def book_train(train_number, travel_date, source_station, destination_station, p
 
     headers = {
         "Content-Type": "application/json",
-        "X-RapidAPI-Key": "82f94937a4msha3a5a70e90b739fp16a90fjsn002361d4b50f",  # Replace with your RapidAPI key
+        "X-RapidAPI-Key": "your_api_key",  # Replace with your RapidAPI key
         "X-RapidAPI-Host": "irctc1.p.rapidapi.com"
     }
     
