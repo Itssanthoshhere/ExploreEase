@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/booking/flight/route": "app/api/booking/flight/route.js",
+  "/ai-travel-planner/page": "app/ai-travel-planner/page.js",
+  "/api/ai-planner/route": "app/api/ai-planner/route.js",
+  "/api/booking/hotels/route": "app/api/booking/hotels/route.js",
+  "/api/auth/route": "app/api/auth/route.js",
+  "/api/booking/train/route": "app/api/booking/train/route.js",
+  "/api/flights/route": "app/api/flights/route.js",
+  "/api/buses/route": "app/api/buses/route.js",
+  "/api/payment/route": "app/api/payment/route.js",
+  "/api/trains/route": "app/api/trains/route.js",
+  "/api/hotels/route": "app/api/hotels/route.js",
+  "/flights/page": "app/flights/page.js",
+  "/api/user/route": "app/api/user/route.js",
+  "/hotels/page": "app/hotels/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/trains/page": "app/trains/page.js",
+  "/profile/page": "app/profile/page.js"
+}
