@@ -1,63 +1,60 @@
 
 # ExploreEase 🌍 – AI-Powered Travel Planner
-ExploreEase is an intelligent travel planning platform that leverages artificial intelligence to craft personalized itineraries, recommend hidden gems, and optimize your travel budget—all in one placeWhether you're a solo adventurer or planning a family getaway, ExploreEase transforms trip planning into an effortless and enjoyable experience
+ExploreEase is an intelligent travel planning platform that leverages artificial intelligence to craft personalized itineraries, recommend hidden gems, and optimize your travel budget—all in one place. Whether you're a solo adventurer or planning a family getaway, ExploreEase transforms trip planning into an effortless and enjoyable experience.
 
 ## 🚀 Features
 
-- **Personalized Itineraries** AI-generated travel plans tailored to your preferences, budget, and schedul.
-- **Dynamic Map Interface** Visualize and modify your travel routes with an intuitive drag-and-drop ma.
-- **Real-Time Updates** Stay informed with live weather forecasts, event listings, and transportation schedule.
-- **Smart Budgeting** Allocate daily spending, track expenses, and discover exclusive deals on accommodations and flight.
-- **AI Chatbot Assistant** Interact with our AI-powered chatbot for instant travel assistance and recommendation.
-- **User Account Management** Register and log in securely to save and manage your travel plan.
+- **Personalized Itineraries**: AI-generated travel plans tailored to your preferences, budget, and schedule.
+- **Dynamic Map Interface**: Visualize and modify your travel routes with an intuitive drag-and-drop map.
+- **Real-Time Updates**: Stay informed with live weather forecasts, event listings, and transportation schedules.
+- **Smart Budgeting**: Allocate daily spending, track expenses, and discover exclusive deals on accommodations and flights.
+- **AI Chatbot Assistant**: Interact with our AI-powered chatbot for instant travel assistance and recommendations.
+- **User Account Management**: Register and log in securely to save and manage your travel plans.
 
 ## 🛠️ Tech Stack
 
-- **Frontend*: React.js, TypeScript, Tailwind SS
-- **Backend*: Node.js, Expressjs
-- **Database*: MyQL
-- **AI Integration*: OpenRouter API, Gemini PI
-- **Third-Party APIs*: Goibibo API for real-time flight and hotel dta
-- **Authentication*: JWT-based secure authentication sysem
+- **Frontend**: React.js, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **AI Integration**: OpenRouter API, Gemini API
+- **Third-Party APIs**: Goibibo API for real-time flight and hotel data
+- **Authentication**: JWT-based secure authentication system
 
 ## 📦 Installation
 
 ### Prerequisites
-- Node.js (v14 or laer)
-- npm or arn
-- MSQL
+
+- Node.js (v14 or later)
+- npm or yarn
+- MySQL
 
 ### Steps
 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Itssanthoshhere/ExploreEase.git
-   ``
-
+   git clone https://github.com/yourusername/ExploreEase.git
+   ```
 
 2. **Navigate to the project directory**:
 
    ```bash
    cd ExploreEase
-   ``
-
+   ```
 
 3. **Install frontend dependencies**:
 
    ```bash
    cd client
    npm install
-   ``
-
+   ```
 
 4. **Install backend dependencies**:
 
    ```bash
    cd ../server
    npm install
-   ``
-
+   ```
 
 5. **Configure environment variables**:
 
@@ -89,32 +86,32 @@
 
 ## 📸 Screenshots
 
-![alt text](<Interface.png>)
+![alt text](Interface.png)
 
-## 🤝 Contribuing
+## 🤝 Contributing
 
-We welcome contributions from the commnity!
+We welcome contributions from the community!
 
-To contribute
+To contribute:
 
-1. Fork the repostory
-2. Create a new branch: `git checkout -b feature/YourFeatureame`
-3. Commit your changes: `git commit -m 'Add your featre'`
-4. Push to the branch: `git push origin feature/YourFeatureame`
-5. Open a pull reues.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeatureName`.
+3. Commit your changes: `git commit -m 'Add your feature'`.
+4. Push to the branch: `git push origin feature/YourFeatureName`.
+5. Open a pull request.
 
-Please ensure your code adheres to our coding standards and includes appropriate ests.
+Please ensure your code adheres to our coding standards and includes appropriate tests.
 
-## 📄 Liense
+## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for dtails.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 👥 Team
 
-- **Bhanuteja** – Project Lead & AI Intgration
-- **Santhosh** – Backend Development & System Archtecture
-- **Shubham** – Frontend Development & UI/U Design
-- **Yashika** – Data Collection & User Exerience
+- **Bhanuteja** – Project Lead & AI Integration
+- **Santhosh** – Backend Development & System Architecture
+- **Shubham** – Frontend Development & UI/UX Design
+- **Yashika** – Data Collection & User Experience
 
 ## 🔗 Connect with Me
 - **LinkedIn:** [Santhosh VS](https://www.linkedin.com/in/thesanthoshvs/)
@@ -122,6 +119,6 @@ To contribute
 
 ---
 
-*Start your journey with ExploreEase today and unlock a world of travel possiblities!*
+*Start your journey with ExploreEase today and unlock a world of travel possibilities!*
 
---- 
+---
