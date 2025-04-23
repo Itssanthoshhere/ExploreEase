@@ -1,8 +1,7 @@
 {
-  "/hotels/page": "app/hotels/page.js",
-  "/booking/page": "app/booking/page.js",
-  "/my-trips/page": "app/my-trips/page.js",
   "/page": "app/page.js",
-  "/api/booking/train/route": "app/api/booking/train/route.js",
-  "/trains/page": "app/trains/page.js"
+  "/trains/page": "app/trains/page.js",
+  "/flights/page": "app/flights/page.js",
+  "/api/booking/flight/route": "app/api/booking/flight/route.js",
+  "/api/booking/train/route": "app/api/booking/train/route.js"
 }
